@@ -34,7 +34,7 @@ if __name__ == "__main__":
     driver = webdriver.Chrome('./chromedriver_v86/chromedriver.exe')
     driver.implicitly_wait(1)
     # driver = webdriver.PhantomJS('/usr/local/Cellar/phantomjs/2.1.1/bin/phantomjs')
-    driver.get("http://keeper.or.kr/")
+    driver.get("http://**.or.kr/")
     #driver.find_element_by_xpath('//*[@id="frmNIDLogin"]/fieldset/input').click()
     #driver.find_element(By.CSS_SELECTOR, "#btn_login_text").click()
     #driver.find_element_by_name('user_id').send_keys('agequodagis')
@@ -50,7 +50,7 @@ if __name__ == "__main__":
 
     # Lottery Page & Handling alert Window
     while True :
-        driver.get("https://keeper.or.kr/page_jEDe97")
+        driver.get("https://**.or.kr/page_jEDe97")
         no_ssl_bypass(driver)
         #print(driver.page_source)
 
