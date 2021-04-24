@@ -59,7 +59,7 @@ if __name__ == "__main__":
         driver.switch_to.frame(lottery_iframe) # switch to selected iframe
 
         lottery_chance_count = driver.find_element(By.CSS_SELECTOR, "#popHeader > div.lotte_body > div.lotte_point > table > tbody > tr:nth-child(3) > td.title")
-        if lottery_chance_count : # 복권 페이지일 때
+        if lottery_chance_count : 
             print("lottery_chance_count.text[0] : ", lottery_chance_count.text[0])
             if int(lottery_chance_count.text[0]) >= 3 :
                 print("Exceed today's maximum chance")
