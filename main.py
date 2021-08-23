@@ -29,7 +29,7 @@ def no_ssl_bypass(_driver) :
 # abcdefghijklmnopqrstuvwxyz
 # abcdefghijklmnopqrstuvwxyz
 # abcdefghijklmnopqrstuvwxyz
-# abcdefghijklmnopq
+# abcdefghijklmnopqr
 
 def login(_driver) :
     return
