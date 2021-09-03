@@ -22,7 +22,7 @@ def no_ssl_bypass(_driver) :
     else :
         print("Bypassed page loaded")
 # abcdefghijklmnopqrstuvwxyz
-# abcdefghijklmnopq
+# abcdefghijklmnopqr
 
 def login(_driver) :
     return
